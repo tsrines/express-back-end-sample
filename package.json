@@ -10,7 +10,8 @@
     "postpretty": "yarn lint --fix",
     "startdev": "nodemon --exec babel-node ./src/bin/www",
     "prestart": "babel ./src --out-dir build",
-    "start": "node ./build/bin/www"
+    "start": "node ./build/bin/www",
+    "runQuery": "babel-node ./src/utils/runQuery"
   },
   "dependencies": {
     "@babel/cli": "^7.8.4",
@@ -25,7 +26,8 @@
     "dotenv": "^8.2.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "pg": "^8.2.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",

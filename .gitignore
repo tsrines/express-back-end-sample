@@ -1,2 +1,8 @@
 .yarn-error.log
 .env
+.travis.yml
+.prettierrc
+.babelrc
+.coveralls.yml
+.appveyor.yml
+yarn-error.log
