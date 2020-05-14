@@ -197,12 +197,12 @@
       "mappings": ";;;;;;;;;AAAA;;AACA;;AAEA,IAAMA,WAAW,GAAGC,oBAAQC,MAAR,EAApB;;AAEAF,WAAW,CAACG,GAAZ,CAAgB,GAAhB,EAAqB,UAACC,GAAD,EAAMC,GAAN;AAAA,SAAcA,GAAG,CAACC,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB;AAAEC,IAAAA,OAAO,EAAEC;AAAX,GAArB,CAAd;AAAA,CAArB;eAEeT,W",
       "sourceRoot": "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/routes/",
       "sourcesContent": [
-        "import express from 'express';\nimport { testEnvironmentVariable } from '../settings';\n\nconst indexRouter = express.Router();\n\nindexRouter.get('/', (req, res) => res.status(200).json({ message: testEnvironmentVariable }));\n\nexport default indexRouter;"
+        "import express from 'express';\nimport { testEnvironmentVariable } from '../settings';\n\nconst indexRouter = express.Router();\n\nindexRouter.get('/', (req, res) => res.status(200).json({ message: testEnvironmentVariable }));\n\nexport default indexRouter;\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "362696db864bbb675a6750df5278b7f5919457b3",
-    "contentHash": "adb10cc4cef7904f31eb536951a1a85fa69a4206fee09e9618536e32ff325e70"
+    "hash": "49f9de870d55fc22bd85c2842c22f6b5c1fd6440",
+    "contentHash": "9077c52fcd8c6e9a286c615f71501279c9409f4b8088447af3dbe40b6c23157a"
   },
   "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/settings.js": {
     "path": "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/settings.js",
@@ -252,14 +252,14 @@
         "env",
         "TEST_ENV_VARIABLE"
       ],
-      "mappings": ";;;;;;;;;AAAA;;AACAA,mBAAOC,MAAP;;AACO,IAAMC,uBAAuB,GAAGC,OAAO,CAACC,GAAR,CAAYC,iBAA5C",
+      "mappings": ";;;;;;;;;AAAA;;AAEAA,mBAAOC,MAAP;;AACO,IAAMC,uBAAuB,GAAGC,OAAO,CAACC,GAAR,CAAYC,iBAA5C",
       "sourceRoot": "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/",
       "sourcesContent": [
-        "import dotenv from 'dotenv';\ndotenv.config();\nexport const testEnvironmentVariable = process.env.TEST_ENV_VARIABLE;"
+        "import dotenv from 'dotenv';\n\ndotenv.config();\nexport const testEnvironmentVariable = process.env.TEST_ENV_VARIABLE;\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "134845298c7e9989aa16c2c803a9b8591e9db4b1",
-    "contentHash": "18287676133d64012675e069042b6d7ff3fadcbb58d5b015d1ade2a7a18f322b"
+    "hash": "e5df96adba088c2c02827eab6bec5dc331010f43",
+    "contentHash": "ed4ec4b95e9c0848c7e58c72381728f0f342289ddc2f597fd87e8fa455d23389"
   }
 }
