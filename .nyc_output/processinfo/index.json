@@ -1,0 +1,17 @@
+{
+  "processes": {
+    "f876fd66-0613-4d22-949b-a11a6bc1754f": { "parent": null, "children": [] }
+  },
+  "files": {
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/app.js": [
+      "f876fd66-0613-4d22-949b-a11a6bc1754f"
+    ],
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/routes/index.js": [
+      "f876fd66-0613-4d22-949b-a11a6bc1754f"
+    ],
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/settings.js": [
+      "f876fd66-0613-4d22-949b-a11a6bc1754f"
+    ]
+  },
+  "externalIds": {}
+}

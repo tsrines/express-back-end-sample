@@ -1,0 +1,22 @@
+{
+  "parent": null,
+  "pid": 44564,
+  "argv": [
+    "/Users/rines/.nvm/versions/node/v14.2.0/bin/node",
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/node_modules/.bin/mocha",
+    "-r",
+    "@babel/register"
+  ],
+  "execArgv": [],
+  "cwd": "/Users/rines/Development/code/mod6/NodeJS/express-api-template",
+  "time": 1589423099257,
+  "ppid": 44563,
+  "coverageFilename": "/Users/rines/Development/code/mod6/NodeJS/express-api-template/.nyc_output/f876fd66-0613-4d22-949b-a11a6bc1754f.json",
+  "externalId": "",
+  "uuid": "f876fd66-0613-4d22-949b-a11a6bc1754f",
+  "files": [
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/app.js",
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/routes/index.js",
+    "/Users/rines/Development/code/mod6/NodeJS/express-api-template/src/settings.js"
+  ]
+}
